@@ -1,16 +1,48 @@
-# React + Vite
+# 🍳 Food Recipe React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and modern **AI-powered Food Recipe App** built with **React + Tailwind CSS**.  
+Users can explore recipes by category, view detailed dishes, and generate **AI-based recipe ideas** instantly — all without any backend setup!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+### 🧁 Stunning UI
+- Fully responsive and modern design built with **Tailwind CSS**  
+- Smooth animations powered by **Framer Motion**
+- Visually rich category cards with image overlays  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🤖 AI Recipe Generator
+- Generate creative and personalized recipes using the **OpenAI API**
+- No backend needed — works directly in React with environment variables
 
-## Expanding the ESLint configuration
+### 🍴 Explore Categories
+- Browse popular categories like **Breakfast**, **Lunch**, **Dinner**, **Snacks**, and **Desserts**
+- Each category displays a curated list of dishes with beautiful images and short descriptions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📖 Recipe Details
+- Each dish card contains:
+  - High-quality image
+  - Title and description
+  - Optional ingredients and cooking steps (for AI-generated recipes)
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-------------|----------|
+| ⚛️ React | Frontend Framework |
+| 🎨 Tailwind CSS | Styling |
+| 🎞️ Framer Motion | Animations |
+| 🤖 OpenAI API | AI Recipe Generation |
+| 🔄 React Router DOM | Routing between pages |
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/food-recipe-app.git
+cd food-recipe-app
